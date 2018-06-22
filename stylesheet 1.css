@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    background: rgb(0, 195, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 23px;
+    font-size: 17px;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    max-height: 250px;
+}
+
+h1 {
+    font-family:'Bitter', serif;
+}
+
+/* the link and picture is in here but u size the
+pic on its own.*/
+
+.container {
+    margin: auto; 
+    max-height: 100px;
+    max-width: 180px;
+}
+
+.container img {
+    max-height: 100px;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    border: none;
+}
+
+/* This is how to have a vertical list */
+.horizontal { 
+    display: table;
+    margin: auto;
+}
+
+.horizontal ul {
+    list-style: none;
+    padding-top: 20px;
+    min-width: 600px;
+}
+
+.horizontal ul li {
+    display: inline-block;
+    width: 200px;
+}
+
+/* coloring links */
+.horizontal ul li a:link {
+    color: aqua;
+}
+
+.horizontal ul li a:visited, a:hover {
+    color: rgb(0, 153, 255);
+}
+
+.horizontal ul li a:active {
+    color: lime; 
+}
+
+
+/*----------------Home Page-----------------------------------------------------*/
+/* side menu on home page!!!!!!!!!*/
+.side_menu {
+    border: solid seashell 1.5px;
+    width: 200px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.home-page-paragraph {
+    border: solid seashell 1.5px;
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 300px;
+}
+
+.home-page-paragraph, .side_menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.home-footer {
+    border: solid seashell;
+    border-radius: 10px;
+    width: 1090px;
+    float: left;
+    margin-left: 125px;
+    margin-bottom: 20px;
+}
+
+.home-footer ul {
+    list-style: none;
+}
+
+.home-footer ul li {
+    display: inline-block;
+    text-align: center;
+    width: 330px;
+}
+
+
+/*----------------SCIENCE STUFF PAGE SECTION ------------------------------------*/
+
+.science-background {
+    background-image: url(swirl-pic.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    image-rendering: optimizeQuality;
+}
+.science-header {
+    text-align: center;
+    font-family: 'Bitter', serif;
+    border-bottom-color: black solid;
+    padding: 25px;
+    border-bottom: black solid;
+    margin: auto;
+    width: 400px;
+    background: seashell;
+}
+
+.science-p-1, .science-p-2, .science-p-3, .science-p-4 {
+    color: ghostwhite;
+}
+
+
+/*----------------PICTURES PAGE SECTION---------------------------------------*/
+
+.background-pic {
+    background-image: url("csm_Nanobot_perched_MMS_9e003189fe.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+#paragraph {
+    color: ghostwhite;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/*-----------------ABOUT US PAGE SECTION----------------------------------------*/
